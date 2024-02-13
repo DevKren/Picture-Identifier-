@@ -1,8 +1,37 @@
 # Picture-Identifier-
-Anthony Krenek's code 
+Written by Anthony Krenek 
 
-This is a Python program that is foucsed on finding the nearest neighbor for images that are related 
-I use a lot of different Linear Algebra techniques to be able to closley identify the images 
-Such as: 
-Finding Eigenfaces, Eigenvectors, Relative Norm and other built in NumPy funtions 
-Also: A low level K Nearest Neighbor is used at the end to iterate over all of the images to closly identify which person fits with the picture 
+This a python project using Numpy and Linear Algebra techniques to find closely related faces from a large data set.
+
+The zip file is too large to upload to GitHub of the faces.
+**Libraries** 
+
+Matplot
+
+Numpy 
+
+
+**Linear Algebra Techniques**
+
+EigenVectors 
+
+EigenValues
+
+EigenFaces
+
+Singular Value Decomposition 
+
+Distance Formulas 
+
+Row and Column Vectors 
+
+
+**Structure**
+Using different distance formulas such as z_bar,eigenfaces and np.linalg.norm
+
+
+To find the closely related faces I itreated over each test image (tst_img1,test_img2,test_img3)
+
+
+The implementation worked and I was succesfully able to get the closly related faces
+
